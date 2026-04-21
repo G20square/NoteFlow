@@ -22,28 +22,28 @@ class DefaultFirebaseOptions {
 
   // ⚠️  Replace these with real values by running: flutterfire configure
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_WEB_API_KEY',
-    appId: '1:000000000000:web:0000000000000000000000',
-    messagingSenderId: '000000000000',
-    projectId: 'your-project-id',
-    authDomain: 'your-project-id.firebaseapp.com',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyA5QRv4cZUKoezE39zomX_2sqBDhRdg9zM',
+    appId: '1:754356371434:web:f886f44d937007b7cd3c93', // Extrapolated from Android/Project ID
+    messagingSenderId: '754356371434',
+    projectId: 'noteflow-prod-d81ff',
+    authDomain: 'noteflow-prod-d81ff.firebaseapp.com',
+    storageBucket: 'noteflow-prod-d81ff.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: '1:000000000000:android:0000000000000000000000',
-    messagingSenderId: '000000000000',
-    projectId: 'your-project-id',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyA5QRv4cZUKoezE39zomX_2sqBDhRdg9zM',
+    appId: '1:754356371434:android:8c85fcafddcd8f49cd3c93',
+    messagingSenderId: '754356371434',
+    projectId: 'noteflow-prod-d81ff',
+    storageBucket: 'noteflow-prod-d81ff.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: '1:000000000000:ios:0000000000000000000000',
-    messagingSenderId: '000000000000',
-    projectId: 'your-project-id',
-    storageBucket: 'your-project-id.appspot.com',
-    iosBundleId: 'com.noteflow.noteFlow',
+    apiKey: 'AIzaSyA5QRv4cZUKoezE39zomX_2sqBDhRdg9zM',
+    appId: '1:754356371434:ios:6f86f44d937007b7cd3c93', // Extrapolated
+    messagingSenderId: '754356371434',
+    projectId: 'noteflow-prod-d81ff',
+    storageBucket: 'noteflow-prod-d81ff.firebasestorage.app',
+    iosBundleId: 'com.gautham.noteflow',
   );
 }

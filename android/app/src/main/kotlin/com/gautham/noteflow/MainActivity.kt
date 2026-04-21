@@ -1,4 +1,4 @@
-package com.noteflow.note_flow
+package com.gautham.noteflow
 
 import io.flutter.embedding.android.FlutterActivity
 
